@@ -1,4 +1,4 @@
-## Codewars
+## Selected kata in Haskell
 
 Isomorphism: [kata](https://www.codewars.com/kata/isomorphism/) [code](https://github.com/WindChimeRan/leetcode-codewars/blob/master/Isomorphism_cw.hs)
 
