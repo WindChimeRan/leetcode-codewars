@@ -6,4 +6,6 @@ Algebraic Isomorphism: [kata](https://www.codewars.com/kata/algebraic-isomorphis
 
 Product Group: [kata](https://www.codewars.com/kata/product-groups/train/haskell) [code](https://github.com/WindChimeRan/leetcode-codewars/blob/master/Product%20Groups.hs)
 
-Cycle a list of values: [kata](https://www.codewars.com/kata/cycle-a-list-of-values/train/haskell) [code](https://github.com/WindChimeRan/leetcode-codewars/blob/master/Cycle%20a%20list%20of%20values.hs) **Monad** for chili chicken! 6kyu easy! 
+Cycle a list of values: [kata](https://www.codewars.com/kata/cycle-a-list-of-values/train/haskell) [code](https://github.com/WindChimeRan/leetcode-codewars/blob/master/Cycle%20a%20list%20of%20values.hs) **Monad** for chili chicken! 6kyu easy!
+
+Hughes' List: [kata](https://www.codewars.com/kata/hughes-list/train/haskell) [code](https://github.com/WindChimeRan/leetcode-codewars/blob/master/Hughes'%20List.hs) [blog](http://h2.jaguarpaw.co.uk/posts/demystifying-dlist/)
