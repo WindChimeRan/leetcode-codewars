@@ -51,7 +51,21 @@ class Solution:
                     seats = seats[i+2:]
         return dis
 
-# 3 TODO
+# 3 just so so, but so so
+class Solution:
+    def maxDistToClosest(self, seats: 'List[int]') -> 'int':
+        s = ''.join(map(str, seats))
+        s = s.split('1')
+        lens = list(map(len, s))
+        result = []
+        if lens[0] != 0:
+            result.append(lens[0])
+        if lens[-1] != 0:
+            result.append(lens[-1])
+        lens = lens[1:-1]
+        if len(lens) != 0:
+            result.append((max(lens)+1)//2)
+        return max(result)
             
 
             
