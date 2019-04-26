@@ -1,0 +1,21 @@
+class Solution:
+    def dailyTemperatures(self, T: List[int]) -> List[int]:
+        
+        if len(T) == 1:
+            return [0]
+        
+        inf = len(T) + 10
+        
+        temps = [inf for i in range(102)]
+        res = []
+
+        for i, t in enumerate(T[::-1]):
+            temps[t] = min((len(T) - i - 1), temps[t])
+            nearest = min(temps[t+1:])
+            if nearest == inf:
+                res.append(0)
+            else:
+                res.append(nearest - (len(T) - i - 1))
+
+        return res[::-1]
+            
