@@ -22,3 +22,12 @@ class Solution:
             else:
                 stack.append(int(t))
         return stack.pop()
+
+class Solution:
+    def evalRPN(self, tokens: List[str]) -> int:
+        t = tokens.pop()
+        if t in '+-*/':
+            a = self.evalRPN(tokens)
+            b = self.evalRPN(tokens)
+            t = eval(str(b) + t + str(a))
+        return int(t)
