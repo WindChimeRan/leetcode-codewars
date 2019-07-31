@@ -30,5 +30,20 @@ class Solution:
             if r:
                 result.append(r)
         return result
+    
+    
+# ------------------------------------------------------------------------------ #
+class Solution:
+    def findOcurrences(self, text: str, first: str, second: str) -> List[str]:
+        
+        result = []
+        toks = text.split()
+        for i, tok in enumerate(toks):
+            if i<2:
+                continue
+            else:
+                if toks[i-2] == first and toks[i-1] == second:
+                    result.append(tok)
+        return result
             
             
