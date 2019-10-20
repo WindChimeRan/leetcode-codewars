@@ -19,3 +19,15 @@ class Solution:
             
             
 # 2
+class Solution:
+    def permute(self, nums: List[int]) -> List[List[int]]:
+        if len(nums) == 1:
+                return [nums]
+        else:
+                out = []
+                for i in range(len(nums)):
+                        fst = [nums[i]]
+                        res = nums[:i] + nums[i+1:]
+                        for part in self.permute(res):
+                                out.append(fst+part)
+                return out
