@@ -11,3 +11,8 @@ Cycle a list of values: [kata](https://www.codewars.com/kata/cycle-a-list-of-val
 Hughes' List: [kata](https://www.codewars.com/kata/hughes-list/train/haskell) [code](https://github.com/WindChimeRan/leetcode-codewars/blob/master/Hughes'%20List.hs) [blog](http://h2.jaguarpaw.co.uk/posts/demystifying-dlist/)
 
 Five Fundamental Monads [kata](https://www.codewars.com/kata/five-fundamental-monads/train/haskell) [code](https://github.com/WindChimeRan/leetcode-codewars/blob/master/Five%20Fundamental%20Monads)
+
+## Selected kata in Python
+
+
+Operating System Scheduling #1 : FCFS scheduling [kata](https://www.codewars.com/kata/5f0ea61fd997db00327e6c25/train/python) [code](https://github.com/WindChimeRan/leetcode-codewars/blob/master/Operating%20System%20Scheduling%20%231%20:%20FCFS%20scheduling.py) 6kyu
